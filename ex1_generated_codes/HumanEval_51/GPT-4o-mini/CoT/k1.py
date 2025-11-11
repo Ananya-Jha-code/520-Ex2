@@ -1,0 +1,3 @@
+def remove_vowels(text):  # function definition, docstring included for documentation.  
+    """remove all the vows in a given text."""    
+    return "".join([char for char in text if char.lower() not in 'aeiou'])      # list comprehension to iterate over each character and only include it when its lowercase version isn't vowel (inclusive of upper case).  Then join all characters into one string with no space between them using the "join" method

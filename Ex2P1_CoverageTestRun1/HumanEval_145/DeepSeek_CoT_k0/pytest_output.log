@@ -1,0 +1,24 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.7, pytest-9.0.0, pluggy-1.6.0 -- /Users/mayankgupta/vscode/520/llm-codegen-study/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/mayankgupta/vscode/520/llm-codegen-study/exercise2_data_singlek/HumanEval_145/DeepSeek_CoT_k0
+plugins: anyio-4.11.0, cov-7.0.0
+collecting ... collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+___________________ ERROR collecting tests/test_solution.py ____________________
+tests/test_solution.py:33: in <module>
+    from src.solution import order_by_points
+src/solution.py:5: in <module>
+    assert order_by_points([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11], "Failed!"   #[-1,-11,1,-12,11] for sorted by sum of digits and index based on original list
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/solution.py:2: in order_by_points
+    return [item for pair in sorted((value, i) for (i, value) in enumerate(nums))]
+            ^^^^
+E   NameError: name 'item' is not defined
+------------------------------- Captured stdout --------------------------------
+Testing with the given example...
+=========================== short test summary info ============================
+ERROR tests/test_solution.py - NameError: name 'item' is not defined
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.21s ===============================

@@ -1,0 +1,23 @@
+import pytest
+from src.solution import split_words
+
+def test_with_alphanumeric_and_underscore():
+    # Input with alphanumeric + underscore should be preserved in re.split with \W+
+    assert split_words("hello_world123") == sum(1 for c in "hello_world123" if c.islower() and (ord(c) - ord('A')) % 2 != 0)
+
+def test_with_tabs_and_newlines():
+    # Input with tabs and newlines should be split like whitespace
+    assert split_words("line1\tline2\nline3") == ['line1', 'line2', 'line3']
+
+def test_empty_string():
+    # Empty string should go to fallback and return 0
+    assert split_words("") == 0
+
+def test_with_numbers_only():
+    # Numbers with no space or comma → fallback → count = 0
+    assert split_words("1234567890") == 0
+
+def test_with_mixed_specials_and_alpha():
+    # Mix of special characters and letters, no space or comma → fallback
+    assert split_words("abc!def@ghi") == sum(1 for c in "abcdefghi" if c.islower() and (ord(c) - ord('A')) % 2 != 0)
+

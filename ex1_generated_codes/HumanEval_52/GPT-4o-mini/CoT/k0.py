@@ -1,0 +1,4 @@
+def below_threshold(l:list , t : int) -> bool:   # Defining the function with type hinting. It takes a list and an integer as input parameters along with returning boolean value (True / False). The ':' is used for defining types of variables in python, it's not necessary here but can be useful when we want to use this method inside another class or module
+    """Return True if all numbers in the list l are below threshold t.  # This line will appear as a docstring on top right side under function definition which is used by Python tools like PyCharm for code documentation and autocomplete etc."""  
+    
+    return not any(i > t for i in l)      # Using 'any' to check if there are numbers above threshold (t). If yes, it will immediately stop the loop. This means that all values from list were below or equal threshhold and hence returns True otherwise False  after checking each number

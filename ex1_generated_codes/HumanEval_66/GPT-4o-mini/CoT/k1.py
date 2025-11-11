@@ -1,0 +1,2 @@
+def digitSum(s):  
+    return sum([ ord(c) for c in s if c.isupper()])     # list comprehension to filter uppercase characters and calculate their ASCII codes using built-in method 'ord' then use the function "sum" which returns a single value ie, total of all elements

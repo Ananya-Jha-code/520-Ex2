@@ -1,0 +1,2 @@
+def remove_vowels(text):   
+     return ''.join([char for char in text if char.lower() not in ('a', 'e', 'i', 'o', 'u')])      # join all characters that are NOT a vowel into one string, and then returns it  (all lowercase to match both upper case & lower cases)

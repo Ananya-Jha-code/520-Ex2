@@ -1,0 +1,18 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.7, pytest-9.0.0, pluggy-1.6.0 -- /Users/mayankgupta/vscode/520/llm-codegen-study/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/mayankgupta/vscode/520/llm-codegen-study/exercise2_data_singlek/HumanEval_51/Qwen_Checklist_k0
+plugins: anyio-4.11.0, cov-7.0.0
+collecting ... collected 1 item
+
+tests/test_solution.py::test_generated PASSED                            [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.13.7-final-0 _______________
+
+Name              Stmts   Miss Branch BrPart  Cover
+---------------------------------------------------
+src/solution.py       3      0      0      0   100%
+---------------------------------------------------
+TOTAL                 3      0      0      0   100%
+============================== 1 passed in 0.06s ===============================

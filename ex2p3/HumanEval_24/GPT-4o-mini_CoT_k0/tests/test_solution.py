@@ -1,0 +1,14 @@
+from src.solution import *
+import pytest
+
+def test_input_is_two():
+    # Edge case: smallest even prime number (only divisors are 1 and 2)
+    assert largest_divisor(2) == "No Larger divisor found"
+
+def test_input_with_multiple_close_divisors():
+    # 105 = 3 * 5 * 7; expects largest proper divisor < 105 to be 105 / 3 = 35
+    assert largest_divisor(105) == "35"
+
+def test_gap_in_divisors():
+    # 121 = 11^2; only divisors are 1, 11 — tests how square numbers with large gaps behave
+    assert largest_divisor(121) == "11"

@@ -1,0 +1,32 @@
+FFF                                                                      [100%]
+=================================== FAILURES ===================================
+______________________________ test_input_is_two _______________________________
+tests/test_solution.py:6: in test_input_is_two
+    assert largest_divisor(2) == "No Larger divisor found"
+           ^^^^^^^^^^^^^^^^^^
+src/solution.py:8: in largest_divisor
+    largest_divisors += [i for i in range(largest_divisors[-1] , int(n/2) + 1 , -1 ) if n % i == 0 ]
+                                        ^^^^^^^^^^^^^^^^^^^^
+E   IndexError: list index out of range
+___________________ test_input_with_multiple_close_divisors ____________________
+tests/test_solution.py:10: in test_input_with_multiple_close_divisors
+    assert largest_divisor(105) == "35"
+E   AssertionError: assert 'No Larger divisor found' == '35'
+E     
+E     - 35
+E     + No Larger divisor found
+----------------------------- Captured stdout call -----------------------------
+Largest Divisible Number:  No Larger divisor found
+_____________________________ test_gap_in_divisors _____________________________
+tests/test_solution.py:14: in test_gap_in_divisors
+    assert largest_divisor(121) == "11"
+           ^^^^^^^^^^^^^^^^^^^^
+src/solution.py:8: in largest_divisor
+    largest_divisors += [i for i in range(largest_divisors[-1] , int(n/2) + 1 , -1 ) if n % i == 0 ]
+                                        ^^^^^^^^^^^^^^^^^^^^
+E   IndexError: list index out of range
+=========================== short test summary info ============================
+FAILED tests/test_solution.py::test_input_is_two - IndexError: list index out...
+FAILED tests/test_solution.py::test_input_with_multiple_close_divisors - Asse...
+FAILED tests/test_solution.py::test_gap_in_divisors - IndexError: list index ...
+3 failed in 0.01s

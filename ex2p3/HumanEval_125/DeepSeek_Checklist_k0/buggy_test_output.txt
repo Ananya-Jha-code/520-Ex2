@@ -1,0 +1,28 @@
+FFF                                                                      [100%]
+=================================== FAILURES ===================================
+_________________________ test_single_comma_edge_case __________________________
+tests/test_solution.py:9: in test_single_comma_edge_case
+    assert split_words(",") == ['', '']
+           ^^^^^^^^^^^^^^^^
+src/solution.py:5: in split_words
+    txt.index(' ')
+E   ValueError: substring not found
+______________________ test_single_word_with_space_suffix ______________________
+tests/test_solution.py:13: in test_single_word_with_space_suffix
+    assert split_words("hello ") == ['hello', '']
+           ^^^^^^^^^^^^^^^^^^^^^
+src/solution.py:8: in split_words
+    txt.index(',')
+E   ValueError: substring not found
+_________________________ test_control_characters_only _________________________
+tests/test_solution.py:17: in test_control_characters_only
+    assert split_words("\x00\x01\x02") == 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/solution.py:5: in split_words
+    txt.index(' ')
+E   ValueError: substring not found
+=========================== short test summary info ============================
+FAILED tests/test_solution.py::test_single_comma_edge_case - ValueError: subs...
+FAILED tests/test_solution.py::test_single_word_with_space_suffix - ValueErro...
+FAILED tests/test_solution.py::test_control_characters_only - ValueError: sub...
+3 failed in 0.01s

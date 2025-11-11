@@ -1,0 +1,17 @@
+from src.solution import *
+import pytest
+
+import pytest
+from src.solution import split_words
+
+def test_single_comma_edge_case():
+    # Single comma should go into the second try block and return two empty strings split
+    assert split_words(",") == ['', '']
+
+def test_single_word_with_space_suffix():
+    # A single word followed by a space should still trigger the first try block
+    assert split_words("hello ") == ['hello', '']
+
+def test_control_characters_only():
+    # Input with only control characters (like \x00) – no space or comma – should hit fallback
+    assert split_words("\x00\x01\x02") == 0

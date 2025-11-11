@@ -1,0 +1,26 @@
+from src.solution import *
+import pytest
+
+import pytest
+from src.solution import largest_divisor
+
+def test_prime_number():
+    # Prime numbers have no divisors other than 1 and itself
+    assert largest_divisor(29) == "No Larger divisor found"
+
+def test_perfect_square():
+    # Perfect squares can test sqrt(n) boundary (sqrt(36) = 6)
+    assert largest_divisor(36) == "18"
+
+def test_even_number_with_many_divisors():
+    # Should return the largest divisor correctly
+    assert largest_divisor(100) == "50"
+
+def test_smallest_non_trivial_input():
+    # Smallest non-prime > 1, with a divisor
+    assert largest_divisor(4) == "2"
+
+def test_invalid_zero_input():
+    # Zero input, which is undefined for division
+    with pytest.raises(ZeroDivisionError):
+        largest_divisor(0)

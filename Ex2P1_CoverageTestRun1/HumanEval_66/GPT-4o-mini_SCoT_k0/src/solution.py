@@ -1,0 +1,2 @@
+def sum_upper(s):
+    return sum([ord(c) for c in s if 'A' <= c.lower() < '[')])   # ASCII codes of uppercase letters are between A-Z (65 - 90). So, we use this range to filter the input string and get only those characters which fall within that range

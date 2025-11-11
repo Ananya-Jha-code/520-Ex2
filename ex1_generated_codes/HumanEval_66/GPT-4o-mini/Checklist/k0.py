@@ -1,0 +1,2 @@
+def digit_sum(s):
+    return sum([ord(c) for c in s if ord(c).isupper()])   # Python's built-in function to get ASCII value of a character and check whether it is uppercase or not. 1st line -> list comprehension, where each element (character from string 's') gets its own summation operation with the help of ord(c) which returns an integer representing Unicode code point for c

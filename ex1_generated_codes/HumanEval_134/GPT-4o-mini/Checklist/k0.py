@@ -1,0 +1,2 @@
+def check_if_last_char_is_a_letter(txt):    
+    return not any([c in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ' for c in txt])  # all characters are non-alphabetical or the string is empty.

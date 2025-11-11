@@ -1,0 +1,2 @@
+def words_string(s):   # Define the function with one parameter s which should be a string.
+    return [word for word in s.replace(' ', '').split(',')]     # Split by comma, remove spaces and split into list of individual elements (words). The result is returned as an array/list from this Python code only!  No prose or tests are required here because it's a simple function with no complex logic.

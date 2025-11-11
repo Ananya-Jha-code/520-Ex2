@@ -1,0 +1,44 @@
+task,combo,tests_total,tests_passed,line_coverage,branch_coverage,notes
+HumanEval_101,Gemini 2.5 Flash_CoT_k0,0,0,,,No tests discovered.
+HumanEval_101,Gemini 2.5 Flash_SCoT_k0,1,0,100.0,,Tests failed — logic error despite coverage.
+HumanEval_101,GPT-4o-mini_CoT_k0,1,0,100.0,,Tests failed — logic error despite coverage.
+HumanEval_101,GPT-4o-mini_SCoT_k0,1,0,100.0,,Tests failed — logic error despite coverage.
+HumanEval_66,Gemini 2.5 Flash_CoT_k0,1,1,100.0,,Low branch coverage — missing else/edge conditions.
+HumanEval_66,Gemini 2.5 Flash_SCoT_k0,1,1,100.0,,Low branch coverage — missing else/edge conditions.
+HumanEval_66,GPT-4o-mini_CoT_k0,1,1,100.0,,Low branch coverage — missing else/edge conditions.
+HumanEval_66,GPT-4o-mini_SCoT_k0,0,0,,,No tests discovered.
+HumanEval_50,Gemini 2.5 Flash_CoT_k0,1,0,100.0,,Tests failed — logic error despite coverage.
+HumanEval_50,Gemini 2.5 Flash_SCoT_k0,1,1,100.0,,Low branch coverage — missing else/edge conditions.
+HumanEval_50,GPT-4o-mini_CoT_k0,0,0,,,No tests discovered.
+HumanEval_50,GPT-4o-mini_SCoT_k0,0,0,,,No tests discovered.
+HumanEval_51,Gemini 2.5 Flash_CoT_k0,1,1,100.0,,Low branch coverage — missing else/edge conditions.
+HumanEval_51,Gemini 2.5 Flash_SCoT_k0,1,1,100.0,,Low branch coverage — missing else/edge conditions.
+HumanEval_51,GPT-4o-mini_CoT_k0,1,0,100.0,,Tests failed — logic error despite coverage.
+HumanEval_51,GPT-4o-mini_SCoT_k0,1,0,100.0,,Tests failed — logic error despite coverage.
+HumanEval_125,Gemini 2.5 Flash_CoT_k0,1,1,100.0,,Low branch coverage — missing else/edge conditions.
+HumanEval_125,Gemini 2.5 Flash_SCoT_k0,1,0,100.0,,Tests failed — logic error despite coverage.
+HumanEval_125,GPT-4o-mini_CoT_k0,0,0,,,No tests discovered.
+HumanEval_125,GPT-4o-mini_SCoT_k0,1,0,45.0,,Tests failed — logic error despite coverage.
+HumanEval_147,Gemini 2.5 Flash_CoT_k0,1,1,100.0,,Low branch coverage — missing else/edge conditions.
+HumanEval_147,Gemini 2.5 Flash_SCoT_k0,1,1,100.0,,Low branch coverage — missing else/edge conditions.
+HumanEval_147,GPT-4o-mini_CoT_k0,0,0,,,No tests discovered.
+HumanEval_147,GPT-4o-mini_SCoT_k0,1,0,50.0,,Tests failed — logic error despite coverage.
+HumanEval_134,Gemini 2.5 Flash_CoT_k0,1,0,100.0,,Tests failed — logic error despite coverage.
+HumanEval_134,Gemini 2.5 Flash_SCoT_k0,1,0,100.0,,Tests failed — logic error despite coverage.
+HumanEval_134,GPT-4o-mini_CoT_k0,0,0,,,No tests discovered.
+HumanEval_134,GPT-4o-mini_SCoT_k0,0,0,,,No tests discovered.
+HumanEval_24,Gemini 2.5 Flash_CoT_k0,1,1,92.0,,Low branch coverage — missing else/edge conditions.
+HumanEval_24,Gemini 2.5 Flash_SCoT_k0,1,1,91.0,,Low branch coverage — missing else/edge conditions.
+HumanEval_24,GPT-4o-mini_CoT_k0,1,0,50.0,,Tests failed — logic error despite coverage.
+HumanEval_24,GPT-4o-mini_SCoT_k0,1,0,67.0,,Tests failed — logic error despite coverage.
+HumanEval_52,Gemini 2.5 Flash_CoT_k0,1,1,100.0,,Low branch coverage — missing else/edge conditions.
+HumanEval_52,Gemini 2.5 Flash_SCoT_k0,1,1,100.0,,Low branch coverage — missing else/edge conditions.
+HumanEval_52,GPT-4o-mini_CoT_k0,1,0,100.0,,Tests failed — logic error despite coverage.
+HumanEval_52,GPT-4o-mini_SCoT_k0,0,0,,,No tests discovered.
+HumanEval_145,Gemini 2.5 Flash_CoT_k0,1,0,100.0,,Tests failed — logic error despite coverage.
+HumanEval_145,Gemini 2.5 Flash_SCoT_k0,1,0,100.0,,Tests failed — logic error despite coverage.
+HumanEval_145,GPT-4o-mini_CoT_k0,0,0,,,No tests discovered.
+HumanEval_145,GPT-4o-mini_SCoT_k0,0,0,,,No tests discovered.
+
+
+

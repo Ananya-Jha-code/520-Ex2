@@ -1,0 +1,2 @@
+def digitSum(s):    
+    return sum([ord(c) for c in s if not c.islower()])   # list comprehension to filter out non-uppercase characters and then map each character into its ASCII value using ord(). is lower case check returns False when the charcter itself isn't a letter (like space, punctuation etc.)

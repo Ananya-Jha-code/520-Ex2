@@ -1,0 +1,2 @@
+def order_by_points(nums):   # Define the function with one parameter nums which is list of integers.
+    return sorted([n for n in enumerate(nums)], key=lambda x:(sum((int(d) for d in str(abs(x[1]))), -x[0] if abs(x[1]) == sum((int(i) for i in str(abs(x[1])))) else 9999)),

@@ -1,0 +1,22 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.7, pytest-9.0.0, pluggy-1.6.0 -- /Users/mayankgupta/vscode/520/llm-codegen-study/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/mayankgupta/vscode/520/llm-codegen-study/exercise2_data_singlek/HumanEval_101/Qwen_CoT_k0
+plugins: anyio-4.11.0, cov-7.0.0
+collecting ... collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+___________________ ERROR collecting tests/test_solution.py ____________________
+tests/test_solution.py:33: in <module>
+    from src.solution import words_string
+src/solution.py:14: in <module>
+    print(words_string("Hi, my name is John"))  # Output: ["Hi", "my", "name", "is", "John"]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/solution.py:11: in words_string
+    return s.split(', ').split()
+           ^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'list' object has no attribute 'split'
+=========================== short test summary info ============================
+ERROR tests/test_solution.py - AttributeError: 'list' object has no attribute...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.16s ===============================

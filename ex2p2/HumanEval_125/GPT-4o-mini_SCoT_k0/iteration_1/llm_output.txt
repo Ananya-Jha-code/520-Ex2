@@ -1,0 +1,26 @@
+import pytest
+from src.solution import split_words
+
+def test_with_only_spaces():
+    # Edge case: input is just spaces
+    assert split_words("     ") == ['']
+
+def test_with_only_commas():
+    # Edge case: input is just commas
+    assert split_words(",,,") == ['']
+
+def test_with_no_split_chars_and_uppercase():
+    # Input has no space or comma, should go to final else clause
+    # Count lowercase letters where (ord(c) - ord('A')) % 2 != 0
+    # 'b' -> 98 - 65 = 33 % 2 == 1, included
+    assert split_words("abcde") == sum(1 for c in "abcde" if c.islower() and (ord(c) - ord('A')) % 2 != 0)
+
+def test_with_symbols_only():
+    # No alphanumeric characters, but special symbols – should yield empty strings or skip
+    assert split_words("!@#$%^&*()") == ['']
+
+def test_with_mixed_no_spaces_or_commas():
+    # No space or comma, fallback to last branch, count specific lowercase letters
+    # 'a'=97, 'c'=99, 'd'=100, 'e'=101 → odd differences from 'A'=65
+    assert split_words("acdeXZ") == sum(1 for c in "acdeXZ" if c.islower() and (ord(c) - ord('A')) % 2 != 0)
+

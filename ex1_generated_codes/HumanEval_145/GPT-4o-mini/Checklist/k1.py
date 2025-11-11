@@ -1,0 +1,3 @@
+def order_by_points(nums):    
+    return sorted([n for n in nums], key=lambda x: (-sum(int(d) for d in str(abs(x))), -nums.index(min((y if y != 0 else float('inf'))  # handle edge case of zero and negative numbers with positive sum
+    elif abs(n % 10**len(str(abs(n))) == n, nums]))])   //handle the cases where there are several items having same digit sums but in different order. This will ensure that if two elements have similar digitsum they get sorted by their index of first occurrence

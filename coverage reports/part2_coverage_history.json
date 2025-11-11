@@ -1,0 +1,28 @@
+{
+  "HumanEval_125/GPT-4o-mini_SCoT_k0": {
+    "line_covs": [
+      45.0,
+      0.0,
+      0.0
+    ],
+    "branch_covs": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "HumanEval_24/GPT-4o-mini_CoT_k0": {
+    "line_covs": [
+      50.0,
+      0.0,
+      0.0
+    ],
+    "branch_covs": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}
+
+

@@ -1,0 +1,10 @@
+{"problem_id": "HumanEval/0", "function_name": "has_close_elements", "signature": "has_close_elements(numbers: List[float], threshold: float) -> bool", "description": "Check if any two numbers in a list are closer than a given threshold."}
+{"problem_id": "HumanEval/1", "function_name": "is_prime", "signature": "is_prime(n: int) -> bool", "description": "Return True if n is prime."}
+{"problem_id": "HumanEval/2", "function_name": "factorial", "signature": "factorial(n: int) -> int", "description": "Return factorial of n."}
+{"problem_id": "HumanEval/3", "function_name": "fibonacci", "signature": "fibonacci(n: int) -> int", "description": "Return n-th Fibonacci number."}
+{"problem_id": "HumanEval/4", "function_name": "sort_and_unique", "signature": "sort_and_unique(lst: List[int]) -> List[int]", "description": "Return a sorted list with unique elements."}
+{"problem_id": "HumanEval/5", "function_name": "flatten_list", "signature": "flatten_list(nested: List[List[int]]) -> List[int]", "description": "Flatten a nested list of integers."}
+{"problem_id": "HumanEval/6", "function_name": "longest_substring", "signature": "longest_substring(s: str) -> int", "description": "Return the length of the longest substring without repeating characters."}
+{"problem_id": "HumanEval/7", "function_name": "matrix_transpose", "signature": "matrix_transpose(matrix: List[List[int]]) -> List[List[int]]", "description": "Return the transpose of a given matrix."}
+{"problem_id": "HumanEval/8", "function_name": "all_permutations", "signature": "all_permutations(lst: List[int]) -> List[List[int]]", "description": "Return all permutations of the given list of integers."}
+{"problem_id": "HumanEval/9", "function_name": "count_vowels", "signature": "count_vowels(s: str) -> int", "description": "Return the number of vowels in the string s."}

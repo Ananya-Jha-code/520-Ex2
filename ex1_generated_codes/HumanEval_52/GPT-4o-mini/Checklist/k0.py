@@ -1,0 +1,7 @@
+def below_threshold(l:list ,t :int)->bool:   # Defining the function with type hinting. It takes a list of integers and an integer as input parameters returning boolean value (True or False). The docstring is also included for better understanding about what this code does, it's not necessary in python but good practice to include them
+    """Return True if all numbers in l are below t; otherwise return false.  # Doc string explaining the function and its purpose"""  
+    
+    for i in range(len(l)):       # Iterating through each element of list 'l' using a loop (range is used to iterate over lists)
+        if not ((t - l[i]) < 0):  # If condition checking whether the number at index `i` from start position, i.e., it’s less than threshold t or above then return False else continue with next iteration of for loop (if none is true). This will stop as soon a false value returned and not go through all elements
+            break  # If found any element that's greater/equal to the threshhold, we can exit from this inner while-loop. Hence 'break'. It stops further execution in current iteration of loop (if it finds such an occurrence).  
+    else: return True     # This will only execute if for all iterations above break statement is not executed ie., no False value was found after checking each element, hence the list contains at least one number which isn't below threshold. Hence 'else', this part of code gets run and returns true indicating that every single item in l (list) are less than t

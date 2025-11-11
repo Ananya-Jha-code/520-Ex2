@@ -1,0 +1,123 @@
+task_id,strategy,family,model,k_idx,pass,msg
+HumanEval/52,CoT,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/52,CoT,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/52,CoT,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/52,Checklist,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/52,Checklist,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/52,Checklist,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/52,CoT,DeepSeek,deepseek-coder:1.3b,0,1,PASS
+HumanEval/52,CoT,DeepSeek,deepseek-coder:1.3b,1,0,"FAIL: invalid syntax (<string>, line 3)"
+HumanEval/52,CoT,DeepSeek,deepseek-coder:1.3b,2,1,PASS
+HumanEval/52,Checklist,DeepSeek,deepseek-coder:1.3b,0,1,PASS
+HumanEval/52,Checklist,DeepSeek,deepseek-coder:1.3b,1,1,PASS
+HumanEval/52,Checklist,DeepSeek,deepseek-coder:1.3b,2,0,"FAIL: unterminated triple-quoted string literal (detected at line 5) (<string>, line 4)"
+HumanEval/134,CoT,Qwen,qwen2.5-coder:3b,0,0,"FAIL: invalid character '➞' (U+279E) (<string>, line 14)"
+HumanEval/134,CoT,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/134,CoT,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/134,Checklist,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/134,Checklist,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/134,Checklist,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/134,CoT,DeepSeek,deepseek-coder:1.3b,0,1,PASS
+HumanEval/134,CoT,DeepSeek,deepseek-coder:1.3b,1,0,"FAIL: unexpected indent (<string>, line 8)"
+HumanEval/134,CoT,DeepSeek,deepseek-coder:1.3b,2,0,"FAIL: closing parenthesis ']' does not match opening parenthesis '(' (<string>, line 2)"
+HumanEval/134,Checklist,DeepSeek,deepseek-coder:1.3b,0,1,PASS
+HumanEval/134,Checklist,DeepSeek,deepseek-coder:1.3b,1,1,PASS
+HumanEval/134,Checklist,DeepSeek,deepseek-coder:1.3b,2,0,"FAIL: unexpected indent (<string>, line 9)"
+HumanEval/51,CoT,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/51,CoT,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/51,CoT,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/51,Checklist,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/51,Checklist,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/51,Checklist,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/51,CoT,DeepSeek,deepseek-coder:1.3b,0,1,PASS
+HumanEval/51,CoT,DeepSeek,deepseek-coder:1.3b,1,1,PASS
+HumanEval/51,CoT,DeepSeek,deepseek-coder:1.3b,2,1,PASS
+HumanEval/51,Checklist,DeepSeek,deepseek-coder:1.3b,0,1,PASS
+HumanEval/51,Checklist,DeepSeek,deepseek-coder:1.3b,1,1,PASS
+HumanEval/51,Checklist,DeepSeek,deepseek-coder:1.3b,2,1,PASS
+HumanEval/66,CoT,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/66,CoT,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/66,CoT,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/66,Checklist,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/66,Checklist,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/66,Checklist,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/66,CoT,DeepSeek,deepseek-coder:1.3b,0,1,PASS
+HumanEval/66,CoT,DeepSeek,deepseek-coder:1.3b,1,1,PASS
+HumanEval/66,CoT,DeepSeek,deepseek-coder:1.3b,2,1,PASS
+HumanEval/66,Checklist,DeepSeek,deepseek-coder:1.3b,0,1,PASS
+HumanEval/66,Checklist,DeepSeek,deepseek-coder:1.3b,1,0,"FAIL: closing parenthesis ')' does not match opening parenthesis '[' (<string>, line 2)"
+HumanEval/66,Checklist,DeepSeek,deepseek-coder:1.3b,2,0,"FAIL: closing parenthesis ')' does not match opening parenthesis '[' (<string>, line 2)"
+HumanEval/147,CoT,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/147,CoT,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/147,CoT,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/147,Checklist,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/147,Checklist,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/147,Checklist,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/147,CoT,DeepSeek,deepseek-coder:1.3b,0,0,"FAIL: closing parenthesis ']' does not match opening parenthesis '(' (<string>, line 13)"
+HumanEval/147,CoT,DeepSeek,deepseek-coder:1.3b,1,0,"FAIL: unexpected indent (<string>, line 11)"
+HumanEval/147,CoT,DeepSeek,deepseek-coder:1.3b,2,0,"FAIL: invalid syntax (<string>, line 9)"
+HumanEval/147,Checklist,DeepSeek,deepseek-coder:1.3b,0,0,"FAIL: invalid decimal literal (<string>, line 26)"
+HumanEval/147,Checklist,DeepSeek,deepseek-coder:1.3b,1,0,"FAIL: invalid syntax (<string>, line 2)"
+HumanEval/147,Checklist,DeepSeek,deepseek-coder:1.3b,2,1,PASS
+HumanEval/101,CoT,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/101,CoT,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/101,CoT,Qwen,qwen2.5-coder:3b,2,0,FAIL: 'list' object has no attribute 'split'
+HumanEval/101,Checklist,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/101,Checklist,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/101,Checklist,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/101,CoT,DeepSeek,deepseek-coder:1.3b,0,1,PASS
+HumanEval/101,CoT,DeepSeek,deepseek-coder:1.3b,1,1,PASS
+HumanEval/101,CoT,DeepSeek,deepseek-coder:1.3b,2,1,PASS
+HumanEval/101,Checklist,DeepSeek,deepseek-coder:1.3b,0,1,PASS
+HumanEval/101,Checklist,DeepSeek,deepseek-coder:1.3b,1,0,"FAIL: unexpected indent (<string>, line 7)"
+HumanEval/101,Checklist,DeepSeek,deepseek-coder:1.3b,2,1,PASS
+HumanEval/24,CoT,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/24,CoT,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/24,CoT,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/24,Checklist,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/24,Checklist,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/24,Checklist,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/24,CoT,DeepSeek,deepseek-coder:1.3b,0,1,PASS
+HumanEval/24,CoT,DeepSeek,deepseek-coder:1.3b,1,1,PASS
+HumanEval/24,CoT,DeepSeek,deepseek-coder:1.3b,2,1,PASS
+HumanEval/24,Checklist,DeepSeek,deepseek-coder:1.3b,0,1,PASS
+HumanEval/24,Checklist,DeepSeek,deepseek-coder:1.3b,1,0,"FAIL: unindent does not match any outer indentation level (<string>, line 4)"
+HumanEval/24,Checklist,DeepSeek,deepseek-coder:1.3b,2,1,PASS
+HumanEval/125,CoT,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/125,CoT,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/125,CoT,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/125,Checklist,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/125,Checklist,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/125,Checklist,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/125,CoT,DeepSeek,deepseek-coder:1.3b,0,0,"FAIL: closing parenthesis ']' does not match opening parenthesis '(' (<string>, line 4)"
+HumanEval/125,CoT,DeepSeek,deepseek-coder:1.3b,1,0,"FAIL: expected 'else' after 'if' expression (<string>, line 5)"
+HumanEval/125,CoT,DeepSeek,deepseek-coder:1.3b,2,0,"FAIL: unindent does not match any outer indentation level (<string>, line 16)"
+HumanEval/125,Checklist,DeepSeek,deepseek-coder:1.3b,0,0,"FAIL: invalid syntax (<string>, line 1)"
+HumanEval/125,Checklist,DeepSeek,deepseek-coder:1.3b,1,0,"FAIL: '(' was never closed (<string>, line 3)"
+HumanEval/125,Checklist,DeepSeek,deepseek-coder:1.3b,2,1,PASS
+HumanEval/145,CoT,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/145,CoT,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/145,CoT,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/145,Checklist,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/145,Checklist,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/145,Checklist,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/145,CoT,DeepSeek,deepseek-coder:1.3b,0,0,"FAIL: unindent does not match any outer indentation level (<string>, line 5)"
+HumanEval/145,CoT,DeepSeek,deepseek-coder:1.3b,1,0,"FAIL: '(' was never closed (<string>, line 2)"
+HumanEval/145,CoT,DeepSeek,deepseek-coder:1.3b,2,0,FAIL: name 'item' is not defined
+HumanEval/145,Checklist,DeepSeek,deepseek-coder:1.3b,0,0,"FAIL: unmatched ']' (<string>, line 2)"
+HumanEval/145,Checklist,DeepSeek,deepseek-coder:1.3b,1,0,"FAIL: closing parenthesis ']' does not match opening parenthesis '(' (<string>, line 3)"
+HumanEval/145,Checklist,DeepSeek,deepseek-coder:1.3b,2,0,"FAIL: Invalid star expression (<string>, line 7)"
+HumanEval/50,CoT,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/50,CoT,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/50,CoT,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/50,Checklist,Qwen,qwen2.5-coder:3b,0,1,PASS
+HumanEval/50,Checklist,Qwen,qwen2.5-coder:3b,1,1,PASS
+HumanEval/50,Checklist,Qwen,qwen2.5-coder:3b,2,1,PASS
+HumanEval/50,CoT,DeepSeek,deepseek-coder:1.3b,0,0,"FAIL: unexpected indent (<string>, line 7)"
+HumanEval/50,CoT,DeepSeek,deepseek-coder:1.3b,1,0,"FAIL: unexpected indent (<string>, line 3)"
+HumanEval/50,CoT,DeepSeek,deepseek-coder:1.3b,2,0,"FAIL: unexpected indent (<string>, line 3)"
+HumanEval/50,Checklist,DeepSeek,deepseek-coder:1.3b,0,1,PASS
+HumanEval/50,Checklist,DeepSeek,deepseek-coder:1.3b,1,1,PASS
+HumanEval/50,Checklist,DeepSeek,deepseek-coder:1.3b,2,0,"FAIL: unexpected indent (<string>, line 11)"
+HumanEval/125,Self-Repair,DeepSeek,deepseek-coder:1.3b,0,0,"FAIL: unexpected indent (<string>, line 9)"
+HumanEval/145,Self-Repair,DeepSeek,deepseek-coder:1.3b,0,0,"FAIL: closing parenthesis ']' does not match opening parenthesis '(' (<string>, line 12)"

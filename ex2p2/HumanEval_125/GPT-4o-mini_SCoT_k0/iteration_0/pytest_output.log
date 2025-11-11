@@ -1,0 +1,44 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.7, pytest-9.0.0, pluggy-1.6.0 -- /Users/mayankgupta/vscode/520/llm-codegen-study/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/mayankgupta/vscode/520/llm-codegen-study/exercise2_data_singlek/HumanEval_125/DeepSeek_Checklist_k0
+plugins: anyio-4.11.0, cov-7.0.0
+collecting ... collected 1 item
+
+tests/test_solution.py::test_generated FAILED                            [100%]
+
+=================================== FAILURES ===================================
+________________________________ test_generated ________________________________
+
+    def test_generated():
+>       check(split_words)
+
+tests/test_solution.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_solution.py:31: in check
+    assertion(split_words(*inp), exp, 0)
+              ^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+txt = 'Hello world!'
+
+    def split_words(txt):
+        # Check for white spaces or comma's and return list of words if found, else the number of upper case characters starting from 'A'->'Z'.
+        try:
+            txt.index(' ')
+>           splitted = [word for word in re.split(r'\W+',txt)]   # Split on whitespace and commas using regex  \w matches any alphanumeric character or underscore, + means one or more of the preceding element
+                                      ^^
+E           NameError: name 're' is not defined. Did you forget to import 're'?
+
+src/solution.py:5: NameError
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.13.7-final-0 _______________
+
+Name              Stmts   Miss Branch BrPart  Cover
+---------------------------------------------------
+src/solution.py      11      6      0      0    45%
+---------------------------------------------------
+TOTAL                11      6      0      0    45%
+=========================== short test summary info ============================
+FAILED tests/test_solution.py::test_generated - NameError: name 're' is not d...
+============================== 1 failed in 0.08s ===============================

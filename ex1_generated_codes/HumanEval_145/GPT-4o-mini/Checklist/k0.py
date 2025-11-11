@@ -1,0 +1,2 @@
+def order_by_points(nums):  
+    return [n for n in nums] if not bool(nums)] else sorted([x[1], x[0]] + [[y, i]for y ,i, xin enumerate (sorte dp[-2])if sum((int))==sum ((d p [- 3])) and sort e -dp [-4]:
